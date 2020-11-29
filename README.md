@@ -9,6 +9,8 @@
 	►docker build -t imgName:0.0.1 .
 	►kubectl run podName --image=imgName:0.0.1 imagePullPolicy=Never --port=8081
 	►kubectl get pods
+	►kubectl expose pod hello --type=LoadBalancer --port=8080 
+	►minikube service hello
 
 
 🔥Kubernates main components🔥
