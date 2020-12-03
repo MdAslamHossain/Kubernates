@@ -14,7 +14,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<start-class>com.app.root.main</start-class>
+		<start-class>com.app.root.SimpleAppApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -31,14 +31,12 @@
 	</dependencies>
 
 	<build>
-	   <pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	   </pluginManagement>	
 		<finalName>app</finalName>
 	</build>
 
